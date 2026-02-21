@@ -27,8 +27,7 @@ void loop() {
     ldrValue = analogRead(ldrPin);
     lightPercent = map(ldrValue, 0, 1023, 0, 100);
 
-    // TODO 6:
-    // Print raw ADC value
+    Serial.println(ldrValue);
 
     // TODO 7:
     // Apply threshold logic (Bright / Dark detection)
