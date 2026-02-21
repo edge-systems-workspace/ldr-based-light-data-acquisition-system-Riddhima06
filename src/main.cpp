@@ -30,14 +30,10 @@ void loop() {
     Serial.println(ldrValue);
 
     if(lightPercent > 50) {
-        // Bright
+        Serial.println("Bright environment detected!");
     } else {
-        // Dark
+        Serial.println("Dark environment detected!");
     }
 
-    // TODO 8:
-    // Print brightness status
 
-    // TODO 9:
-    // Add delay (500ms or 1 second)
 }
