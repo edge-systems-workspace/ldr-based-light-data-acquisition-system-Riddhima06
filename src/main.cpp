@@ -35,5 +35,5 @@ void loop() {
         Serial.println("Dark environment detected!");
     }
 
-
+    delay(500);
 }
