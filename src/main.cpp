@@ -24,8 +24,8 @@ void setup() {
 
 void loop() {
 
-    // TODO 5:
-    // Read analog value from LDR
+    ldrValue = analogRead(ldrPin);
+    lightPercent = map(ldrValue, 0, 1023, 0, 100);
 
     // TODO 6:
     // Print raw ADC value
