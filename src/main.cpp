@@ -19,8 +19,7 @@ void setup() {
 
     Serial.begin(9600);
 
-    // TODO 4:
-    // Print system initialization message
+    Serial.println("LDR Light Monitoring System Initialized");
 }
 
 void loop() {
