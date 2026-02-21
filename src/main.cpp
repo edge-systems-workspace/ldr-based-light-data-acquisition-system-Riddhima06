@@ -29,8 +29,11 @@ void loop() {
 
     Serial.println(ldrValue);
 
-    // TODO 7:
-    // Apply threshold logic (Bright / Dark detection)
+    if(lightPercent > 50) {
+        // Bright
+    } else {
+        // Dark
+    }
 
     // TODO 8:
     // Print brightness status
