@@ -12,8 +12,8 @@
 
 int ldrPin = A0;
 
- // TODO 2:
- // Create variable to store sensor reading
+int ldrValue;
+int lightPercent;
 
 void setup() {
 
